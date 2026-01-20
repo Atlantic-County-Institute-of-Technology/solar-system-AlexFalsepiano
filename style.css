@@ -1,5 +1,4 @@
 body.space {
-	
 	overflow: hidden; /* anything that exceeds the bounds of the screen will be hidden */
 	background: url('images/bg.jpg');
 	background-size: cover;
@@ -20,7 +19,52 @@ body.space {
 }
 
 .planets {
+	animation: move_planet 6s infinite ease-in-out;
 	position: absolute;
-	top: 50%;
+	top: 5%;
 	left: 50%;
+}
+.sun{
+	position:absolute;
+}
+#mercury{
+	animation: move 10s infinite linear;
+}
+.venus{
+
+}
+.earth{
+
+}
+.mars{
+
+}
+.jupiter{
+
+}
+.saturn{
+
+}
+.uranus{
+
+}
+.neptune{
+
+}
+@keyframe {
+	0%{
+		transform: translateX(300px) rotate(0deg);
+	}
+	25%{
+
+	}
+	50%{
+
+	}
+	75%{
+
+	}
+	100%{
+
+	}
 }
