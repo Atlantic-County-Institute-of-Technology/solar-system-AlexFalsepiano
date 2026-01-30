@@ -185,6 +185,12 @@ body.space {
 	left: 600px;
 	scale: 50%;
 }
+#ohar{
+	animation: move_ohar 25s infinite linear;
+	top: -1000px;
+	left: 600px;
+	scale: 50%;
+}
 #rocket{
 	animation: move_rocket 20s infinite linear;
 	top: -1200px;
